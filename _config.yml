@@ -19,3 +19,5 @@ github_username:  Olafyii
 
 # Build settings
 markdown: kramdown
+
+remote_theme: thelehhman/texture
