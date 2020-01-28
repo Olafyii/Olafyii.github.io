@@ -3,7 +3,6 @@ layout: post
 title: Basic concept about persistent memory
 date: 2018-07-09 11:14:00 +0800
 categories: persistent memory
-typora-root-url: ..
 ---
 
 This post is a sketch of [persistent memory wikipedia page](https://en.wikipedia.org/wiki/Persistent_memory) and [this Youtube video](https://www.youtube.com/watch?v=E2KYqdyZcQY&list=PLg-UKERBljNztvB495CD6Ij9wBXh2tRTT).
@@ -21,10 +20,10 @@ This post is a sketch of [persistent memory wikipedia page](https://en.wikipedia
   - They are **byte addressable**, like memory. Programs can access data structures in place.
 - Persistent memory is fast enough to access directly from the processor **without stopping to do the Block I/O** required for traditional storage. (Doing block I/O means that the application or file system is sending blocks to the disk drive to be written or asking for blocks using a logicalblock address (LBA).)
 
-![img](assets\images\屏幕截图63.png)
+![img](\assets\images\screenshot63.png)
 
-![img](assets\images\屏幕截图64.png)
+![img](\assets\images\screenshot64.png)
 
-![img](assets\images\屏幕截图65.png)
+![img](\assets\images\screenshot65.png)
 
-![img](assets\images\屏幕截图66.png)
+![img](\assets\images\screenshot66.png)

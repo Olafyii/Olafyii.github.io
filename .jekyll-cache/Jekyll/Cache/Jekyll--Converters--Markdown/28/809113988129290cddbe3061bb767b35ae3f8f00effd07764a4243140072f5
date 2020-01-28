@@ -1,4 +1,4 @@
-I"�
+I"�
 <p>This post is a sketch of <a href="https://en.wikipedia.org/wiki/Persistent_memory">persistent memory wikipedia page</a> and <a href="https://www.youtube.com/watch?v=E2KYqdyZcQY&amp;list=PLg-UKERBljNztvB495CD6Ij9wBXh2tRTT">this Youtube video</a>.</p>
 
 <ul>
@@ -19,11 +19,11 @@
   <li>Persistent memory is fast enough to access directly from the processor <strong>without stopping to do the Block I/O</strong> required for traditional storage. (Doing block I/O means that the application or file system is sending blocks to the disk drive to be written or asking for blocks using a logicalblock address (LBA).)</li>
 </ul>
 
-<p><img src="assets\images\屏幕截图63.png" alt="img" /></p>
+<p><img src="\assets\images\screenshot63.png" alt="img" /></p>
 
-<p><img src="assets\images\屏幕截图64.png" alt="img" /></p>
+<p><img src="\assets\images\screenshot64.png" alt="img" /></p>
 
-<p><img src="assets\images\屏幕截图65.png" alt="img" /></p>
+<p><img src="\assets\images\screenshot65.png" alt="img" /></p>
 
-<p><img src="assets\images\屏幕截图66.png" alt="img" /></p>
+<p><img src="\assets\images\screenshot66.png" alt="img" /></p>
 :ET
