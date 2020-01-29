@@ -1,0 +1,38 @@
+I"<ul>
+  <li>equation align:</li>
+</ul>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="p">{</span>amsmath<span class="p">}</span>
+<span class="nt">\begin{equation}</span>
+<span class="nt">\begin{split}</span>
+    <span class="p">&amp;</span><span class="k">\gamma</span> ( I ) = <span class="k">\sum</span> <span class="p">_</span> <span class="p">{</span> t = 1 <span class="p">}</span> <span class="p">^</span> <span class="p">{</span> T <span class="p">}</span> <span class="k">\gamma</span> <span class="p">_</span> <span class="p">{</span> t <span class="p">}</span> <span class="k">\\</span>
+    <span class="p">&amp;</span>=<span class="k">\left</span><span class="na">[ \sum _ { t = 1 } ^ { T } \gamma _ { 1 } \left( x _ { t } \right) , \sum _ { t = 1 } ^ { T } \gamma _ { 2 } \left( x _ { t } \right) , \ldots , \sum _ { t = 1 } ^ { T } \gamma _ { N } \left( x _ { t } \right) \right]</span>
+<span class="nt">\end{split}</span>
+<span class="nt">\end{equation}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Add table quicker: use excel2latex</li>
+  <li>Super link:</li>
+</ul>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\usepackage</span><span class="p">{</span>hyperref<span class="p">}</span>
+<span class="k">\hypersetup</span><span class="p">{</span>
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+<span class="p">}</span>
+<span class="k">\href</span><span class="p">{</span>http://www.kanglw.com/<span class="p">}{</span>Liwei's homepage<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>reference</p>
+  </li>
+  <li>
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\bibliography</span><span class="p">{</span>name<span class="p">}</span> <span class="c">% then add reference in name.bib, then \cite{...}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

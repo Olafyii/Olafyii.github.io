@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic concept about persistent memory
+title: Basic concepts about persistent memory
 date: 2018-07-09 11:14:00 +0800
 categories: persistent memory
 ---

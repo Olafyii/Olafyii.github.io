@@ -1,0 +1,30 @@
+---
+layout: post
+date: 2019-05-07 16:59:00 +0800
+title: Tips
+hide: 1
+categories: cheatsheet
+---
+
+tab and space entangled?
+
+use vim
+
+```
+:%s/\t/    /g
+:%s/    /\t/g
+```
+
+python datetime (see https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior)
+
+```python
+datetime.datetime.now().strftime('%y.%m.%d.%H.%M.%S')
+```
+
+Pytorch number of parameters:
+
+```python
+sum(param.numel() for param in net.parameters())  # net is the model
+```
+
+ 
