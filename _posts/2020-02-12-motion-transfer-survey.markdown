@@ -3,6 +3,7 @@ layout: post
 title: Tutorial for setup environment for lua
 date: 2019-05-11 10:03:00 +0800
 categories: cheatsheet
+typora-root-url: ..
 ---
 
 **Everybody Dance Now**
@@ -20,3 +21,11 @@ Appearance of target video + Motion of source video -> Result video
 3. Obtain images of target subject in the same pose as source.
 
 **Liquid Warping GAN**
+
+Three application:
+
+- Motion Imitation
+- Novel View Synthesis
+- Appearance Transfer
+
+![img](/assets/images/LiquidWarpingGAN_1.png)
