@@ -29,7 +29,7 @@ What they are doing:
 
  
 
-[![img](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_094733.jpg)](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_094733.jpg)
+![img](/assets/images/MVIMG_20180710_094733.jpg)
 
 Tradition: "1T1R" Structure (Transistor size much bigger than cell---not good)
 
@@ -39,7 +39,7 @@ disadvantage: Sneak currents, IR drop
 
 IR drop: hurt performance and endurance
 
-[![img](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_095104.jpg)](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_095104.jpg)
+![img](/assets/images/MVIMG_20180710_095104.jpg)
 $$
 t*e^{k\times Vd}=C
 $$
@@ -55,13 +55,13 @@ The impact diminishes as row become closer to write driver.
 
 Use the number of LRS cells(worst case) in a bitline to optimize RESET time.
 
-Count the number of "1" by "current accumulation effect"[![img](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_100838.jpg)](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_100838.jpg).
+Count the number of "1" by "current accumulation effect"![img](/assets/images/MVIMG_20180710_100838.jpg).
 
-[![img](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101228.jpg)](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101228.jpg)
+![img](/assets/images/MVIMG_20180710_101228.jpg)
 
 Reduce LRS cells
 
-[![img](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101909.jpg)](https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101909.jpg)
+![img](/assets/images/MVIMG_20180710_101909.jpg)
 
  
 
