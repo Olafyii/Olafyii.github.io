@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tutorial for setup environment for lua
-date: 2019-05-11 10:03:00 +0800
-categories: cheatsheet
+title: Motion Transfer Survey
+date: 2020-02-13 11:34:00 +0800
+categories: CV
 typora-root-url: ..
 ---
 
