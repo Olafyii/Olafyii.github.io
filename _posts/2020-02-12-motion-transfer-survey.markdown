@@ -6,7 +6,7 @@ categories: CV
 typora-root-url: ..
 ---
 
-**Everybody Dance Now**
+# **Everybody Dance Now**
 
 - video-to-video translation using pose as an intermediate representation.
 
@@ -20,12 +20,22 @@ Appearance of target video + Motion of source video -> Result video
 2. Train image-to-image translation model between pose stick figures and images of target person. 
 3. Obtain images of target subject in the same pose as source.
 
-**Liquid Warping GAN**
 
-Three application:
+
+# **Liquid Warping GAN**
+
+Proposed a unified framework for the following three tasks:
 
 - Motion Imitation
 - Novel View Synthesis
 - Appearance Transfer
 
-![img](/assets/images/LiquidWarpingGAN_1.png)
+![img](/assets/images/LiquidWarpingGAN_3.png)
+
+**Keyword**: HMR, SMPL, Neural Mesh Renderer
+
+# **Synthesizing Images of Human in Unseen Poses**
+
+<img src="/assets/images/Synthesizing_1.png" alt="img" style="zoom: 67%;" />
+
+<img src="/assets/images/Synthesizing_2.png" alt="img" style="zoom: 100%;" />
