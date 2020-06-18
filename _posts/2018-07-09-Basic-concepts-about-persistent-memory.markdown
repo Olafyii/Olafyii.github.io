@@ -2,7 +2,7 @@
 layout: post
 title: Basic concepts about persistent memory
 date: 2018-07-09 11:14:00 +0800
-categories: persistent memory
+categories: persistent_memory
 ---
 
 This post is a sketch of [persistent memory wikipedia page](https://en.wikipedia.org/wiki/Persistent_memory) and [this Youtube video](https://www.youtube.com/watch?v=E2KYqdyZcQY&list=PLg-UKERBljNztvB495CD6Ij9wBXh2tRTT).

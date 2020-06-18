@@ -2,7 +2,7 @@
 layout: post
 title: Pmemobj study note part 0&1Memory"---lecture notes
 date: 2018-07-16 15:14:00 +0800
-categories: persistent memory
+categories: persistent_memory
 excerpt: gaga
 ---
 

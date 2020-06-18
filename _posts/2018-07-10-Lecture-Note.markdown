@@ -2,7 +2,7 @@
 layout: post
 title: '"On the improvement of Performance and Endurance of Crossbar Resistive Memory"---lecture notes'
 date: 2018-07-10 09:22:00 +0800
-categories: persistent memory
+categories: persistent_memory
 ---
 
 
