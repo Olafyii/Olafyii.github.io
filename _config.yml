@@ -19,3 +19,5 @@ github_username:  Olafyii
 markdown: kramdown
 
 # remote_theme: thelehhman/texture
+
+permalink: /:categories/:title/
