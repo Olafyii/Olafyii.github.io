@@ -21,3 +21,4 @@ markdown: kramdown
 # remote_theme: thelehhman/texture
 
 permalink: /:categories/:title/
+theme: jekyll-theme-cayman
