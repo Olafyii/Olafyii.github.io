@@ -1,11 +1,21 @@
 ---
+layout:     post
+title:      '"On the improvement of Performance and Endurance of Crossbar Resistive Memory"---lecture notes'
+# subtitle:   " \"Hello World, Hello Blog\""
+date: 2018-07-10 09:22:00 +0800
+author:     "Liwei"
+header-style: text
+catalog: true
+tags:
+    - persistent memory
+---
+
+<!-- ---
 layout: post
 title: '"On the improvement of Performance and Endurance of Crossbar Resistive Memory"---lecture notes'
 date: 2018-07-10 09:22:00 +0800
 categories: persistent_memory
----
-
-
+--- -->
 
 Background:
 

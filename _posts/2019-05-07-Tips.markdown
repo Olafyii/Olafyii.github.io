@@ -2,8 +2,11 @@
 layout: post
 date: 2019-05-07 16:59:00 +0800
 title: Tips
-hide: 1
-categories: cheatsheet
+catalog: true
+hidden: true
+header-style: text
+tags:
+    - cheatsheet
 ---
 
 tab and space entangled?

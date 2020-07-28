@@ -2,8 +2,11 @@
 layout: post
 title: Motion Transfer Survey
 date: 2020-02-13 11:34:00 +0800
-categories: CV
-typora-root-url: ..
+catalog: true
+header-style: text
+tags:
+    - Computer Vision
+    - Motion Transfer
 ---
 
 # Everybody Dance Now
