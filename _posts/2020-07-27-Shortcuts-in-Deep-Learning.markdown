@@ -2,10 +2,8 @@
 layout: post
 title: Shortcut Learning in Deep Neural Networks
 date: 2020-07-27 10:04:00 +0800
-catalog: true
-header-style: text
-tags:
-    - Paper Notes
+categories: Paper Notes
+typora-root-url: ..
 ---
 
 Husky or Wolf? Classified by background: snow->wolf, no snow->husky.  

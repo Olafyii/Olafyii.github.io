@@ -2,10 +2,8 @@
 layout: post
 date: 2019-05-05 15:16:00 +0800
 title: Lated Tips
-catalog: true
-header-style: text
-tags:
-    - cheatsheet
+hide: 1
+categories: cheatsheet
 ---
 
 

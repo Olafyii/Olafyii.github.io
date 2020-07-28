@@ -1,0 +1,6 @@
+I"ÿ<p>This post is a study note of <a href="http://pmem.io/2015/06/15/transactions.html">this page</a>.</p>
+
+<p>A generic solution to make sure the application is always in a consistent state.</p>
+
+<p><img src="/assets/images/lifecycle.png" alt="img" /></p>
+:ET

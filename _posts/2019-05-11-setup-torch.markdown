@@ -2,10 +2,7 @@
 layout: post
 title: Tutorial for setup environment for lua
 date: 2019-05-11 10:03:00 +0800
-catalog: true
-header-style: text
-tags:
-    - cheatsheet
+categories: cheatsheet
 ---
 
 

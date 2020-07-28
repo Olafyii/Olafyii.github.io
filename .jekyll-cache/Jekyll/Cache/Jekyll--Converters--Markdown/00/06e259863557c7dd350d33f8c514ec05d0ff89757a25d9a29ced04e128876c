@@ -1,0 +1,42 @@
+I"�<p>Tutorial for setup environment for lua</p>
+
+<ol>
+  <li>
+    <p>Install cudatoolkit 8.0 and cudnn 5.1</p>
+
+    <p>If you are setting environment on Suzhou HPC, you can use the following command to add them to your environment.</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module add cuda/8.0 cudnn/5.1
+</code></pre></div>    </div>
+
+    <p>Otherwise, you need to download the cudatoolkit install runfile from nvidia website https://developer.nvidia.com/cuda-80-download-archive and install it manually. Don’t use anaconda to install, it won’t work.</p>
+
+    <p>And for cudnn, you need to register a nvidia developer account (free), and then download it from https://developer.nvidia.com/rdp/cudnn-archive</p>
+
+    <p>Remember to download cuDNN v5.1 (Jan 20, 2017), for CUDA 8.0</p>
+  </li>
+  <li>
+    <p>Set cudnn path:</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">CUDNN_PATH</span><span class="o">=</span>/mnt/lustre/cm/shared/global/src/dev/cudnn/5.1/lib64/libcudnn.so.5
+</code></pre></div>    </div>
+
+    <p>(depends on where you install the cudnn library)</p>
+  </li>
+  <li>
+    <p>Install OpenBLAS:git clone https://github.com/xianyi/OpenBLAS.gitcd OpenBLASmake NO_AFFINITY=1 USE_OPENMP=1sudo make PREFIX=[path you want to install OpenBLAS] install Set environment variable:export CMAKE_LIBRARY_PATH=[path you install OpenBLAS]/include:[path you install OpenBLAS]/lib:$CMAKE_LIBRARY_PATH(Mind the line break while copying)</p>
+  </li>
+  <li>
+    <p>Install torch7:git clone https://github.com/torch/distro.git ~/torch –recursivecd ~/torch./install.sh</p>
+  </li>
+  <li>
+    <p>Install cudnn for lua:git clone https://github.com/soumith/cudnn.torch.git -b R5cd cudnn.torchluarocks make cudnn-scm-1.rockspec</p>
+  </li>
+  <li>
+    <p>Install luarocks to make torch work with cuda:luarocks install cutorchluarocks install cunn7.    If you want to install other lua libraries:luarocks install [library you need] All set. You should be able to use torch7 with lua now!For more information about torch</p>
+  </li>
+  <li>
+    <p>check this website:http://torch.ch/docs/getting-started.html#_</p>
+  </li>
+</ol>
+:ET

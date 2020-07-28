@@ -2,10 +2,7 @@
 layout: post
 title: NVM Library Study Notes
 date: 2018-07-09 11:14:00 +0800
-catalog: true
-header-style: text
-tags:
-    - persistent memory
+categories: persistent_memory
 ---
 
 This post is mainly my understanding about [this article](http://pmem.io/2014/09/01/nvm-library-overview.html).

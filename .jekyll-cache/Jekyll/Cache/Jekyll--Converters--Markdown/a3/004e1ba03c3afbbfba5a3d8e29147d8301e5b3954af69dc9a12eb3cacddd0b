@@ -1,0 +1,82 @@
+I"<p>Background:</p>
+
+<p>University of Pittsburgh</p>
+
+<p>Cathedral of learning</p>
+
+<p>CS@SCI—“school of computing and information”</p>
+
+<p>What they are doing:</p>
+
+<ul>
+  <li>NVM based memory system
+    <ul>
+      <li><strong>ReRAM based main memory system—Today’s topic</strong></li>
+    </ul>
+  </li>
+  <li>Supporting Path-ORAM in the cloud (privacy issue)
+    <ul>
+      <li>Privacy issue. e.g. Dropbox is not allowed in China. Medication information shound not be put on cloud.</li>
+      <li>Intel SGX. (Curious server/server not trusted)</li>
+    </ul>
+  </li>
+  <li>CNN-acceleration</li>
+  <li>NVM/DRAM based accelerators</li>
+</ul>
+
+<p><a href="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_094733.jpg"><img src="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_094733.jpg" alt="img" /></a></p>
+
+<p>Tradition: “1T1R” Structure (Transistor size much bigger than cell—not good)</p>
+
+<p>Crossbar structure (“0T1R”, “1D1R”)</p>
+
+<p>disadvantage: Sneak currents, IR drop</p>
+
+<p>IR drop: hurt performance and endurance</p>
+
+<p><a href="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_095104.jpg"><img src="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_095104.jpg" alt="img" /></a>
+<script type="math/tex">t*e^{k\times Vd}=C</script>
+t—Reset latency</p>
+
+<p>Vd is small due to sneak current, t wil be larger.</p>
+
+<p>Optimize t according to the number of “1”(low resistance)</p>
+
+<p>More LRS cells—larger IR drop—longer time(for LRS cells, sneak current is larger, thus Vd is smaller, according to the formula, t is larger)</p>
+
+<p>The impact diminishes as row become closer to write driver.</p>
+
+<p>Use the number of LRS cells(worst case) in a bitline to optimize RESET time.</p>
+
+<p>Count the number of “1” by “current accumulation effect”<a href="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_100838.jpg"><img src="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_100838.jpg" alt="img" /></a>.</p>
+
+<p><a href="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101228.jpg"><img src="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101228.jpg" alt="img" /></a></p>
+
+<p>Reduce LRS cells</p>
+
+<p><a href="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101909.jpg"><img src="https://www.kanglw.com/wp-content/uploads/2018/07/MVIMG_20180710_101909.jpg" alt="img" /></a></p>
+
+<p>Endurance~$(\dfrac{tw}{t0})^c$</p>
+
+<p>tw—write latency</p>
+
+<p>t0, c—constant</p>
+
+<p><img src="/assets/images/MVIMG_20180710_103442.jpg" alt="img" /></p>
+
+<p>Efficient Write</p>
+
+<p>EW=$|(\dfrac{tL}{t})^2|$</p>
+
+<p>longest duration tL to write.</p>
+
+<p>Endurance not only related to how many writes.</p>
+
+<p>Write time depends on worst case. Some bitlines with more HRS cell do not need such long time. This will reduce its endurance.</p>
+
+<p>Solution—remap.</p>
+
+<p>Suggestion on writing paper: performance is not the most important, idea is important.</p>
+
+<p>Currently, ReRAM is too expensive for storage.</p>
+:ET

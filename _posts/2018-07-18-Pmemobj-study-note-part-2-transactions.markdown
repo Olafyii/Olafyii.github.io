@@ -2,10 +2,7 @@
 layout: post
 title: Pmemobj study note part 2 - transactions
 date: 2018-07-18 17:34:00 +0800
-catalog: true
-header-style: text
-tags:
-    - persistent memory
+categories: persistent_memory
 ---
 
 This post is a study note of [this page](http://pmem.io/2015/06/15/transactions.html).

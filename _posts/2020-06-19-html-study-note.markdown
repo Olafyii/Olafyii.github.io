@@ -2,10 +2,8 @@
 layout: post
 title: HTML Study Note
 date: 2020-06-19 10:37:00 +0800
-catalog: true
-header-style: text
-tags:
-    - html
+categories: HTML
+typora-root-url: ..
 ---
 
 The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
