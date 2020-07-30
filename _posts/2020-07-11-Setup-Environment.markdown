@@ -3,6 +3,7 @@ layout: post
 title: Setup Environment on windows
 date: 2020-06-19 10:37:00 +0800
 catalog: true
+hidden: true
 header-style: text
 tags:
     - Notes
