@@ -16,5 +16,6 @@ Axioms of Probability
   * p($\Omega$)=1
 * Additivity of disjoint events:
   * For all events $E, E' \in F$ where $E \cap E' = \emptyset$,
-  $p(E \cup E') = p(E)+p(E')$  
+  
+    $p(E \cup E') = p(E)+p(E')$  
 
