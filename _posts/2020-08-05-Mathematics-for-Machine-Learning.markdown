@@ -55,4 +55,8 @@ tags:
     $$
   * Estimate covariance from actual samples:  
   $\operatorname{cov}(x, y)=\frac{1}{N-1} \sum_{i=1}^{N}\left(x_{i}-\mu_{x}\right)\left(y_{i}-\mu_{y}\right)$
+* Pearson's correlation coefficient:  
+  * $\operatorname{corr}(x, y)=\frac{\operatorname{cov}(x, y)}{\sigma_{x} \sigma_{y}}$
+  * **Only reflects linear dependence**  
+  ![img](/assets/images/corr.png)
 * 
