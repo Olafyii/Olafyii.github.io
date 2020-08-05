@@ -38,3 +38,21 @@ tags:
   * Independence: Given: events A and B, which can co-occur (or not)  
   $p(A \mid B)=p(A) \quad \text { or } \quad p(A, B)=p(A) \cdot p(B)$
   ![img](/assets/images/prob-independence.png)
+  * Bayes Rule: A way to find conditional probabilities for one variable when conditional probabilities for another variable are known.  
+  $p(B \mid A)=\frac{p(A \mid B) \cdot p(B)}{p(A)}$  
+  $p(B \mid A) \propto p(A \mid B) \cdot p(B)$
+  $\text{posterior probability} \propto \text{likelihood} \times \text{prior probability}$
+    * Eg. In recent years, it has rained only 5 days each year in a desert. The weatherman is forecasting rain for tomorrow. When it actually rains, the weatherman has forecast rain 90% of the time. When it doesn't rain, he has forecast rain 10% of the time. What is the probability it will rain tomorrow?
+* Estimate variance from actual samples:  
+  $S^{2}=\frac{1}{n-1} \sum_{i=1}^{n}\left(X_{i}-\bar{X}\right)^{2}$  
+  [Why n-1?](https://www.zhihu.com/question/20099757)
+* Covariance  
+  * $$
+        \begin{aligned}
+        f\left(x_{i}\right) &=\left(x_{i}-\mu_{x}\right), \quad g\left(y_{i}\right)=\left(y_{i}-\mu_{y}\right) \\
+        \operatorname{cov}(x, y) &=\sum p\left(x_{i}, y_{i}\right) \cdot\left(x_{i}-\mu_{x}\right) \cdot\left(y_{i}-\mu_{y}\right)
+        \end{aligned}
+    $$
+  * Estimate covariance from actual samples:  
+  $\operatorname{cov}(x, y)=\frac{1}{N-1} \sum_{i=1}^{N}\left(x_{i}-\mu_{x}\right)\left(y_{i}-\mu_{y}\right)$
+* 
