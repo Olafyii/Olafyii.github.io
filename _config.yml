@@ -5,7 +5,7 @@ header-img: img/home-stranger.jpg
 email: kangliwei19@gmail.com
 description: "Liwei's cheatsheet."
 keyword: "康力伟, Liwei, Computer Vision, Artificial Intelligence, Olafyii"
-url: "https://www.kanglw.com"              # your host, for absolute URL
+url: "https://olafyii.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
