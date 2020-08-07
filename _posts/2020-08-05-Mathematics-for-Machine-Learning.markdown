@@ -74,8 +74,8 @@ tags:
 A maximum likelihood estimator $\widehat{\theta}$ of $\theta_{0}$ is obtained as a solution of a maximization problem:  
 $$\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)$$
 In other words, $\widehat{\theta}$ is the parameter that maximizes the likelihood of the sample $\xi$. $\widehat{\theta}$ is called the maximum likelihood estimator of $\theta$.  
-The logarithm of the likelihood is called log-likelihood and it is denoted by
-$l(\theta ; \xi)=\ln [L(\theta ; \xi)]$
+The logarithm of the likelihood is called log-likelihood and it is denoted by  
+$$l(\theta ; \xi)=\ln [L(\theta ; \xi)]$$
 The $\theta$ value that satisfies $\dfrac{dl(\theta ; \xi)}{d\theta}=\dfrac{d\ln f_{\Xi}(\xi ; \theta)}{d\theta}=0$ is the one with maximum likelihood. [Why?](https://www.zhihu.com/question/263423642)
 <!-- **Information in equality**  [proof](https://www.statlect.com/fundamentals-of-statistics/maximum-likelihood)
 $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\left(\theta ; \Xi_{n}\right)\right], \forall \theta \neq \theta_{0}$$ -->
