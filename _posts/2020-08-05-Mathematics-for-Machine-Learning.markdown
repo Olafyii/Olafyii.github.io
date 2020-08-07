@@ -98,7 +98,9 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 * The prior can be regard as regularization - to reduce the overfitting
 
 $\theta=2.5$  
-$$\theta=2.5$$  
+$$ \theta=2.5 $$  
 \$$\theta=2.5\$$  
 [[\theta=2.5]]  
-$$
+$$a$$
+$$ a $$
+$$$$
