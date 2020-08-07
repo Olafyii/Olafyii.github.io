@@ -4,7 +4,7 @@ title: Mathematics for Machine Learning
 date: 2020-07-27 10:04:00 +0800
 catalog: true
 header-style: text
-mathjax: false
+mathjax: true
 tags:
     - math
 ---
