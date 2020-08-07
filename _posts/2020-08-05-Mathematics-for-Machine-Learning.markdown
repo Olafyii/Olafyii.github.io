@@ -99,11 +99,6 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 
 $\theta=2.5$  
 $$\theta=2.5$$  
-\(\theta=2.5\)  
-\[\theta=2.5\]  
-[[\theta=2.5]]
-$$$$  
-$$$  
-$$  
-$  
-\$$\theta=2.5\$$
+\$$\theta=2.5\$$  
+[[\theta=2.5]]  
+$$
