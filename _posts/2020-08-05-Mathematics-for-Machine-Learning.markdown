@@ -72,7 +72,9 @@ tags:
 
 ### Maximum likelihood estimator
 A maximum likelihood estimator $\widehat{\theta}$ of $\theta_{0}$ is obtained as a solution of a maximization problem:  
-$$\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)$$
+$$
+\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)
+$$
 In other words, $\widehat{\theta}$ is the parameter that maximizes the likelihood of the sample $\xi$. $\widehat{\theta}$ is called the maximum likelihood estimator of $\theta$.  
 The logarithm of the likelihood is called log-likelihood and it is denoted by
 $$l(\theta ; \xi)=\ln [L(\theta ; \xi)]$$
@@ -91,6 +93,7 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
   \hat{\theta}_{M A P} &=\arg \max _{\theta} \log p(\theta)+\sum_{i=1}^{n} \log \left(x_{i} \mid \theta\right)
   \end{aligned}
   $$
+
 ### Comparison MLE vs. MAP
 * MLE: For which $\theta$ is $X_1, . . . , X_n$ most likely?
 * MAP: Which $\theta$ maximizes $p(\theta|X_1, . . . ,X_n)$ with prior $p(\theta)$?
