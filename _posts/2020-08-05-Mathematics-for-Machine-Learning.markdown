@@ -96,3 +96,8 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 * MLE: For which $\theta$ is $X_1, . . . , X_n$ most likely?
 * MAP: Which $\theta$ maximizes $p(\theta|X_1, . . . ,X_n)$ with prior $p(\theta)$?
 * The prior can be regard as regularization - to reduce the overfitting
+
+$\theta=2.5$  
+$$\theta=2.5$$  
+\(\theta=2.5\)
+\[\theta=2.5\]
