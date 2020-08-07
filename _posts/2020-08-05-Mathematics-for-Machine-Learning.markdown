@@ -4,7 +4,7 @@ title: Mathematics for Machine Learning
 date: 2020-07-27 10:04:00 +0800
 catalog: true
 header-style: text
-mathjax: true
+mathjax: false
 tags:
     - math
 ---
@@ -99,5 +99,5 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 
 $\theta=2.5$  
 $$\theta=2.5$$  
-\(\theta=2.5\)
+\(\theta=2.5\)  
 \[\theta=2.5\]
