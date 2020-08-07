@@ -69,6 +69,7 @@ tags:
 * there is a set $\Theta \subset \mathbb{R}^{p}$ of real vectors (called the parameter space) whose elements (called parameters) are put into correspondence with the possible distributions of $\Xi$; in particular:
   * if $\Xi$ is a continuous random vector, we assume that its joint probability density function $f_\Xi(\xi;\theta_0)$ belongs to a set of joint probability density functions $f_\Xi(\xi;\theta)$ indexed by the parameter $\theta$; **when the joint probability density function is considered as a function of $\theta$ for fixed $\xi$, it is called likelihood** and it is denoted by  
   $$L(\theta ; \xi)=f_{\Xi}(\xi ; \theta)$$
+
 ### Maximum likelihood estimator
 A maximum likelihood estimator $\widehat{\theta}$ of $\theta_{0}$ is obtained as a solution of a maximization problem:  
 $$\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)$$
@@ -78,6 +79,7 @@ $$l(\theta ; \xi)=\ln [L(\theta ; \xi)]$$
 The $\theta$ value that satisfies $\dfrac{dl(\theta ; \xi)}{d\theta}=\dfrac{d\ln f_{\Xi}(\xi ; \theta)}{d\theta}=0$ is the one with maximum likelihood. [Why?](https://www.zhihu.com/question/263423642)
 <!-- **Information in equality**  [proof](https://www.statlect.com/fundamentals-of-statistics/maximum-likelihood)
 $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\left(\theta ; \Xi_{n}\right)\right], \forall \theta \neq \theta_{0}$$ -->
+
 ### Maximum A Posteriori Estimation (MAP)
 * We assume that the parameters are a random variable, and we specify a prior distribution $p(θ)$.
 * Employ Bayes' rule to compute the posterior distribution
