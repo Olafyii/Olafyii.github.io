@@ -97,10 +97,50 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 * MAP: Which $\theta$ maximizes $p(\theta|X_1, . . . ,X_n)$ with prior $p(\theta)$?
 * The prior can be regard as regularization - to reduce the overfitting
 
-$\theta=2.5$  
-$$ \theta=2.5 $$  
-\$$\theta=2.5\$$  
-[[\theta=2.5]]  
-$$a$$
-$$ a $$
-$$$$
+### Vector
+* 2-norm of vectors  
+  $\|\mathbf{x}\|_{2}=\sqrt{\sum_{i=1}^{n} x_{i}^{2}}$
+* Cauchy-Schwarz inequality  
+  $\mathbf{x} \cdot \mathbf{y} \leq\|\mathbf{x}\|_{2}\|\mathbf{y}\|_{2}$
+* A set of vectors is orthogonal if  
+  $$\left\|\sum_{i=1}^{n} \mathbf{x}_{i}\right\|^{2}=\sum_{i=1}^{n}\left\|\mathbf{x}_{i}\right\|^{2}$$
+
+### Matrix
+* Rank of a matrix: the maximal number of linearly independent columns in the matrix
+* The trace (often abbreviated to tr) of a square matrix $\mathbf{A}$ is defined to be the sum of elements on the main diagonal (from the upper left to the lower right) of $\mathbf{A}$.
+* A square matrix $\mathbf{Q} \in \mathbb{R}^{n \times n}$ is orthogonal if
+  $$\mathbf{Q}^{\top} \mathbf{Q}=\mathbf{I} \quad \text { i.e., } \mathbf{Q}^{\top}=\mathbf{Q}^{-1}$$
+  i.e. the set of column vectors of $\mathbf{Q}$ is orthogonal.  
+  * The processes of multiplication by an orthogonal matrices preserves geometric structure
+  * Dot products are preserved  
+  $$
+  \begin{array}{l}
+  (\mathbf{Q} \mathbf{x}) \cdot(\mathbf{Q} \mathbf{y})=\mathbf{x} \cdot \mathbf{y} \\
+  (\mathbf{Q} \mathbf{x})^{\top}(\mathbf{Q} \mathbf{y})=\mathbf{x}^{\top} \mathbf{Q}^{\top} \mathbf{Q} \mathbf{y}=\mathbf{x}^{\top} \mathbf{y}
+  \end{array}
+  $$
+  * Lengths of Vectors are preserved  
+  $$\|\mathbf{Qx}\|=\|\mathbf{x}\|$$
+  * Angles between vectors are preserved
+  $$
+  \cos \theta=\frac{(\mathbf{Q} \mathbf{x})^{\top}(\mathbf{Q} \mathbf{y})}{\|\mathbf{Q} \mathbf{x}\|\|\mathbf{Q} \mathbf{y}\|}=\frac{\mathbf{x}^{\top} \mathbf{y}}{\|\mathbf{x}\|\|\mathbf{y}\|}
+  $$
+
+### Norms
+* Vector p-norms:  
+  $$\|\mathbf{x}\|_{p}=\left(\left|x_{1}\right|^{p}+\left|x_{2}\right|^{p}+\cdots+\left|x_{n}\right|^{p}\right)^{1 / p}$$
+  $$\|x\|_{\infty}=\max \left\{\left|x_{1}\right|,\left|x_{2}\right|, \ldots,\left|x_{n}\right|\right\}$$
+* Matrix p-norms (operator norm):  
+  $$\|\mathbf{A}\|_{p}=\max _{\mathbf{x} \neq 0} \frac{\|\mathbf{A} \mathbf{x}\|_{p}}{\|\mathbf{x}\|_{p}}$$
+* Frobenius norm
+  $$\|\mathbf{A}\|_{F}=\left(\sum_{i=1}^{m} \sum_{j=1}^{n}\left|a_{i j}\right|^{2}\right)^{1 / 2}$$
+  * $$\|\mathbf{A}\|_{F}^{2}=\operatorname{trace}\left(\mathbf{A}^{\top} \mathbf{A}\right)$$
+  * $$\|\mathbf{A} \mathbf{B}\|_{F}=\|\mathbf{A}\|_{F}\|\mathbf{B}\|_{F}$$
+  * Invariance under orthogonal Multiplication, Q is an orthogonal matrix:
+  $$\|\mathbf{Q} \mathbf{A}\|_{2}=\|\mathbf{A}\|_{2} \quad\|\mathbf{Q} \mathbf{A}\|_{F}=\|\mathbf{A}\|_{F}$$  
+
+### Eigenvalue Decomposition
+* For a square matrix $\mathbf{A} \in \mathbb{R}^{n \times n}$, we say that a nonzero vector $\mathbf{x} \in \mathbb{R}^n$ is an eigenvector of $\mathbf{A}$ corresponding to eigenvalue $\lambda$ if  
+$$\mathbf{Ax}=\lambda \mathbf{x}$$
+* An eigenvalue decomposition of a square matrix A is  
+  $$\mathbf{A}=\mathbf{X} \mathbf{\Lambda} \mathbf{X}^{-1}$$
