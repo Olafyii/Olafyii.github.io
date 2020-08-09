@@ -63,6 +63,7 @@ tags:
   ![img](/assets/images/corr.png)
 
 ## Maximum Likelihood Estimation (MLE)
+
 ### Main elements of MLE:  
 * a sample $\xi$, that we use to make statements about the probability distribution that generated the sample;
 * the sample $\xi$ is regarded as the realization of a random vector $\Xi$, whose distribution is unknown and needs to be estimated;
@@ -72,7 +73,8 @@ tags:
 
 ### Maximum likelihood estimator
 A maximum likelihood estimator $\widehat{\theta}$ of $\theta_{0}$ is obtained as a solution of a maximization problem:  
-$$\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)$$
+$$\widehat{\theta}=\arg \max _{\theta \in \Theta} L(\theta ; \xi)$$  
+
 In other words, $\widehat{\theta}$ is the parameter that maximizes the likelihood of the sample $\xi$. $\widehat{\theta}$ is called the maximum likelihood estimator of $\theta$.  
 The logarithm of the likelihood is called log-likelihood and it is denoted by  
 $$l(\theta ; \xi)=\ln [L(\theta ; \xi)]$$
@@ -93,15 +95,15 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
   $$
 
 ### Comparison MLE vs. MAP
-* MLE: For which $\theta$ is $X_1, . . . , X_n$ most likely?
-* MAP: Which $\theta$ maximizes $p(\theta|X_1, . . . ,X_n)$ with prior $p(\theta)$?
-* The prior can be regard as regularization - to reduce the overfitting
+* MLE: For which $\theta$ is $X_1, . . . , X_n$ most likely?  
+* MAP: Which $\theta$ maximiszes $p(\theta\vert X_1, . . . ,X_n)$ with prior $p(\theta)$?  
+* The prior can be regard as regularization -- to reduce the overfitting
 
 ### Vector
 * 2-norm of vectors  
-  $\|\mathbf{x}\|_{2}=\sqrt{\sum_{i=1}^{n} x_{i}^{2}}$
+  $$\|\mathbf{x}\|_{2}=\sqrt{\sum_{i=1}^{n} x_{i}^{2}}$$
 * Cauchy-Schwarz inequality  
-  $\mathbf{x} \cdot \mathbf{y} \leq\|\mathbf{x}\|_{2}\|\mathbf{y}\|_{2}$
+  $$\mathbf{x} \cdot \mathbf{y} \leq\|\mathbf{x}\|_{2}\|\mathbf{y}\|_{2}$$
 * A set of vectors is orthogonal if  
   $$\left\|\sum_{i=1}^{n} \mathbf{x}_{i}\right\|^{2}=\sum_{i=1}^{n}\left\|\mathbf{x}_{i}\right\|^{2}$$
 
@@ -125,6 +127,9 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
   $$
   \cos \theta=\frac{(\mathbf{Q} \mathbf{x})^{\top}(\mathbf{Q} \mathbf{y})}{\|\mathbf{Q} \mathbf{x}\|\|\mathbf{Q} \mathbf{y}\|}=\frac{\mathbf{x}^{\top} \mathbf{y}}{\|\mathbf{x}\|\|\mathbf{y}\|}
   $$
+* A matrix is invertible if it's a square matrix and is nonsingular.
+* $\operatorname{det}\left(A^{-1}\right)=\frac{1}{\operatorname{det}(A)}$
+* $A^{-1}=\frac{A^{*}}{|A|}$, $A^*$ is adjugate matrix.
 
 ### Norms
 * Vector p-norms:  
@@ -142,5 +147,7 @@ $$\mathrm{E}\left[l\left(\theta_{0} ; \Xi_{n}\right)\right]>\mathrm{E}\left[l\le
 ### Eigenvalue Decomposition
 * For a square matrix $\mathbf{A} \in \mathbb{R}^{n \times n}$, we say that a nonzero vector $\mathbf{x} \in \mathbb{R}^n$ is an eigenvector of $\mathbf{A}$ corresponding to eigenvalue $\lambda$ if  
 $$\mathbf{Ax}=\lambda \mathbf{x}$$
-* An eigenvalue decomposition of a square matrix A is  
+* An eigenvalue decomposition of a square matrix $\mathbf{A}$ is  
   $$\mathbf{A}=\mathbf{X} \mathbf{\Lambda} \mathbf{X}^{-1}$$
+* $\mathbf{X}$ is nonsingular (rank=n), and consists of eigenvectors of $\mathbf{A}$
+* $\mathbf{\Lambda}$ is a diagonal matrix with the eigenvalues of $\mathbf{A}$ on its diagonal.
