@@ -5,6 +5,7 @@ date: 2020-07-27 10:04:00 +0800
 catalog: true
 header-style: text
 mathjax: true
+hidden: true
 tags:
     - math
 ---
@@ -19,3 +20,15 @@ $$\|\mathbf{x}\|_{2}=\sqrt{\sum_{i=1}^{n} x_{i}^{2}}$$
 * $$p(\theta|X_1, . . . ,X_n)$$
 
 ??????
+
+Fixed for now by adding
+```
+gem 'kramdown', '<= 2.1'
+```
+in Gemfile
+Seems it has something to do with the recent kramdown update https://github.com/gettalong/kramdown/commit/c3acf8df1db49d2456050f4456f3f542294e2e8f where kramdown no longer wrap formulas into tags anymore. 
+This is just a temporary solution, as github warns
+
+> The kramdown gem before 2.3.0 for Ruby processes the template option inside Kramdown documents by default, which allows unintended read access (such as template="/etc/passwd") or unintended embedded Ruby code execution (such as a string that begins with template="string://<%= `). NOTE: kramdown is used in Jekyll, GitLab Pages, GitHub Pages, and Thredded Forum.
+
+Looking forward to a better solution.
