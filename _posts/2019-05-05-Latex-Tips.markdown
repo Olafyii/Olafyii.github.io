@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2019-05-05 15:16:00 +0800
-title: Lated Tips
+title: Latex Tips
 catalog: true
 header-style: text
 tags:
