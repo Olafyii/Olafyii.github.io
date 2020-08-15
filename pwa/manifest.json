@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Liwei Kang's Blog",
+  "short_name": "Liwei Kang's Blog",
+  "description": "Liwei Kang's Blog",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
